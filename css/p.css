@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+
+  font-family: 'Roboto', Helvetica Neue, helvetica, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Josefin sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 65px;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #833543;
+    text-underline-offset: 0.1em;
+    text-decoration-thickness: 3px;;
+    font-weight: bold;
+    transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+    text-decoration-color: #fff;
+}
+
+.content {
+    max-width: 828px;
+    margin: 40px auto 0 auto;
+}
+
+.content h1 {
+    text-align: right;
+}
+
+body {
+    background-color: #627776; 
+    color: #dadada;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: rgba(98, 119, 118, 0.7), url('/images/noise.svg');
+}
+
+main > footer{
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: #a1a1a1;
+}
+
+main > section {
+    margin-bottom: 15px;
+}
+
+#external-links {
+    text-align: right;
+}
+
+.content p {
+font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+body .content {
+    max-width: 880px;
+}
+}
+
+@media screen and (min-width: 414px) {
+body .content {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+}
+
+@media screen and (min-width: 368px) {
+    body .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
